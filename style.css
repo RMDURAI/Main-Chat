@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+     background-color: rgb(195, 237, 237);
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 95, 95);
+    height: 100px;
+    width: 400px;
+    color: white;
+    padding: 10px;
+     border-radius: 13px;
+     font-size: 20px;
+    
+}
+
+.head{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title h6{
+    color: rgb(245, 237, 237);
+}
+
+.img{
+    position:relative;
+    top: 10px;
+}
+
+.month{
+    background-color: azure;
+    width: 400px;
+    height:370px;
+    position: relative;
+    left: 550px;
+    top: 220px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    
+    
+}
+.percent1{
+    background-color: rgb(249, 95, 95);
+height: 40px;
+width: 40px;
+border-radius: 3px;
+
+
+}
+
+.percent2{
+    background-color: rgb(249, 95, 95);
+
+    height: 80px;
+    width: 40px;
+border-radius: 3px;
+}
+.percent3{
+    background-color: rgb(119, 198, 198);
+    height: 120px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.percent4{
+    height: 60px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: rgb(249, 95, 95);
+
+}
+.percent5{
+    height: 50px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: rgb(249, 95, 95);
+
+}
+.percent6{
+    height: 100px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: rgb(249, 95, 95);
+
+}
+
+.percent7{
+    height: 60px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: rgb(249, 95, 95);
+
+}
+
+.total{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    color: blue;
+
+  
+}
+
+.month h3{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+
+.year{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.year h6{
+    color: rgb(184, 171, 171);
+}
+
+.t1{
+    position: relative;
+    bottom: 10px;
+
+
+
+}
+
+.t2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    top: 10px;
+}
+
+.t2 h5{
+    display: flex;
+    justify-content: end;
+
+}
